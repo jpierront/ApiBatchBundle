@@ -1,0 +1,24 @@
+{
+  "name": "jpierront/api-batch-bundle",
+  "type": "library",
+  "description": "Api Batch Bundle",
+  "keywords": [],
+  "homepage": "https://github.com/jpierront/ApiBatchBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Julien Pierront",
+      "email": "julien@nikao.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": "~2.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "psr-4": { "JPierront\\ApiBatchBundle\\": "" }
+  }
+}
